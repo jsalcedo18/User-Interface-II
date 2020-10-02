@@ -14,8 +14,112 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {  
 margin: 0;  
 padding: 0;  
-border: 0;  
+/* border: 0;   */
+border: 1px solid black;
 font-size: 100%;  
 font: inherit;  
 vertical-align: baseline;  
 }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+* {
+    /* font family */
+}
+
+header {
+    background-color: lightblue;
+}
+
+.Name {
+
+}
+
+.TopButtons {
+
+}
+
+    .TopButtons nav a {
+
+    }
+
+/*-----------------------------------------------------------------*/
+
+.HeaderContainer {
+
+}
+
+    .Me img {
+
+    }
+
+    .Info {
+
+    }
+
+        .Info h2 {
+
+        }
+
+        .Info a {
+
+        }
+
+        .Info p {
+
+        }
+
+.Gallery {
+
+}
+
+    .FirstRow {
+
+    }
+
+        .FirstRow img {
+
+        }
+
+    .FirstRowCaptions {
+
+    }
+
+        .FirstRowCaptions p {
+
+        }
+
+    .SecondRow {
+
+    }
+
+        .SecondRow p {
+
+        }
+
+/*-----------------------------------------------------------------*/
+
+footer {
+    background-color: lightblue;
+}
+
+    .footerbox {
+
+    }
+
+        .footerbox h3 {
+
+        }
+
+        .footerbox button {
+
+        }
+
+            .footerbox button a {
+
+            }
+
+/*-----------------------------------------------------------------*/
