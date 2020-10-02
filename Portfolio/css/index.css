@@ -64,9 +64,13 @@ header {
 
         }
 
-        .Info a {
+        .Info button {
 
         }
+
+            .Info button a {
+
+            }
 
         .Info p {
 
@@ -76,27 +80,51 @@ header {
 
 }
 
-    .FirstRow {
+    .Gallery img {
 
     }
 
-        .FirstRow img {
+    .Gallery h3 {
+
+    }
+
+    .Gallery h4 {
+
+    }
+
+    .Gallery p {
+
+    }
+
+        .Project1 {
 
         }
 
-    .FirstRowCaptions {
-
-    }
-
-        .FirstRowCaptions p {
+        .Project2 {
 
         }
 
-    .SecondRow {
+        .Project3 {
 
-    }
+        }
 
-        .SecondRow p {
+        .Project4 {
+
+        }
+
+        .Project5 {
+
+        }
+
+        .Project6 {
+
+        }
+
+        .Project7 {
+
+        }
+
+        .Project8 {
 
         }
 
@@ -106,20 +134,32 @@ footer {
     background-color: lightblue;
 }
 
-    .footerbox {
+    .footerBox {
 
     }
 
-        .footerbox h3 {
+        .footerBox h3 {
 
         }
 
-        .footerbox button {
+        .footerBox button {
 
         }
 
-            .footerbox button a {
+            .footerBox button a {
 
             }
+
+    footer nav {
+
+    }
+
+        footer nav a {
+
+        }
+
+    footer p {
+
+    }
 
 /*-----------------------------------------------------------------*/
