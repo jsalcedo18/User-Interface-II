@@ -40,9 +40,25 @@ body{
 	line-height: 1.5;
 }
 
+h1, h2, h3 {
+    font-family: 'Bree Serif', serif;
+}
+
+h4 {
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
 /*_________________________ Header CSS _________________________*/
 header {
-    background-color: lightblue;
+    background-color: rgb(103,143,196);
 }
 
 .topBar {
@@ -52,21 +68,51 @@ header {
 }
 
     .Name {
-        width: 25%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
+        .Name h1 {
+            font-size: 7rem;
+            width: 100%;
+            text-align: center;
+        }
+
+        .Name img {
+            width: 50%;
+            height: 13vh;
+        }
+
     .TopButtons {
-        width: 75%;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
         .TopButtons nav {
             display: flex;
             justify-content: space-evenly;
+            width: 100%;
         }
 
-            .TopButtons nav a {
-                text-decoration: none;
+            .TopButtons nav button {
+                padding: 18px 35px 18px 35px;
+                border-radius: 12%;
+                background-color: rgb(217,192,158);
             }
+
+                .TopButtons nav a {
+                    text-decoration: none;
+                    color: white;
+                    font-size: 2.2rem;
+                    font-weight: 900;
+                    letter-spacing: 0.15rem;
+                    /* -webkit-text-stroke: 0.01px black; */
+                }
 
 /*_________________________ Body CSS _________________________*/
 /*--- Section1: .HeaderContainer---*/
@@ -84,6 +130,7 @@ header {
         .Me {
             display: flex;
             justify-content: center;
+            background-color: black;            
         }
 
             .Me img {
@@ -91,11 +138,14 @@ header {
             }
 
         .Info {
-
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
             .Info h2 {
-
+                font-size: 3rem;
             }
 
             .Info button {
@@ -103,78 +153,69 @@ header {
             }
 
                 .Info button a {
-
+                    text-decoration: none;
                 }
 
             .Info p {
-
+                font-size: 1.5rem;
             }
 
 /*-------- Section2: .Gallery--------*/
 .Gallery {
-
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
-    .Gallery img {
+    .box {
+        width: 30%;
+        margin: 1% 1.5% 1% 1.5%;
+        display: flex;
+        flex-direction: column;
+    }    
 
-    }
-
-    .Gallery h3 {
-
-    }
-
-    .Gallery h4 {
-
-    }
-
-    .Gallery p {
-
-    }
-
-        .Project1 {
-
+        .Gallery img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
 
-        .Project2 {
-
+        .Gallery h3 {
+            font-size: 2rem;
+            text-align: center;
         }
 
-        .Project3 {
-
+        .Gallery h4 {
+            font-size: 1.5rem;
+            text-align: center;
         }
 
-        .Project4 {
-
+        .Gallery p {
+            font-size: 1.1rem;
+            text-align: center;
         }
 
-        .Project5 {
-
-        }
-
-        .Project6 {
-
-        }
-
-        .Project7 {
-
-        }
-
-        .Project8 {
-
-        }
-
-/*-----------------------------------------------------------------*/
+/*_________________________ Footer CSS _________________________*/
 
 footer {
-    background-color: lightblue;
+    background-color: rgb(140,170,210);
 }
 
-    .footerBox {
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+    /* align-items: center;
+    width: 100%; */
+}
 
-    }
+    /* .footerBox {
+
+    } */
 
         .footerBox h3 {
-
+            font-size: 2rem;
         }
 
         .footerBox button {
@@ -182,19 +223,20 @@ footer {
         }
 
             .footerBox button a {
-
+                text-decoration: none;
             }
 
     footer nav {
-
+        display: flex;
+        justify-content: space-evenly;
     }
 
         footer nav a {
-
+            text-decoration: none;
         }
 
     footer p {
-
+        font-size: 1.1rem;
     }
 
 /*-----------------------------------------------------------------*/
